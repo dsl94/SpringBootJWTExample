@@ -1,0 +1,56 @@
+{
+	"id": "dc29fa00-a891-5915-3366-12567318095b",
+	"name": "JWT Tutorial",
+	"description": "",
+	"order": [
+		"86ae987a-0579-99f1-0d0f-e0cc633f1cea",
+		"1e34707f-18e1-55a1-d806-8e229a0a1366"
+	],
+	"folders": [],
+	"timestamp": 1494683413311,
+	"owner": "769967",
+	"remoteLink": "",
+	"public": false,
+	"published": false,
+	"requests": [
+		{
+			"id": "1e34707f-18e1-55a1-d806-8e229a0a1366",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:8090/login",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "dc29fa00-a891-5915-3366-12567318095b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1494686366468,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"username\": \"admin\",\n    \"password\": \"password\"\n}"
+		},
+		{
+			"id": "86ae987a-0579-99f1-0d0f-e0cc633f1cea",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTQ5NTU1MDQ1OH0.W0PJMLwEj54JVVihPoogVHiGOW_-JTTkzMR8U2N8xCALtrk5lnXdh0wS_YHHYpuigPm40R3UkrO-EDricfO1pQ\nContent-Type: application/json\n",
+			"url": "http://localhost:8090/users",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1494686518358,
+			"name": "/users",
+			"description": "",
+			"collectionId": "dc29fa00-a891-5915-3366-12567318095b",
+			"responses": []
+		}
+	]
+}
